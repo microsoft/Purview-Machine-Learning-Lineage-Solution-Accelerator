@@ -12,7 +12,7 @@ This solution accelerator helps developers with the resources needed to build an
 ![Purview Machine Learning Lineage Introduction](./Deployment/img/PurviewMLLineageIntroduction.PNG)
 
 ## Purview ML Process Lineage
-![ML Lineage](./Deployment/img/MLLineageScreenshot.png)
+![ML Lineage](./Deployment/img/MLLineageScreenshot.PNG)
 
 ## Prerequisites
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/). While not required, a prior understanding of Azure Purview, Azure Synapse Analytics and Machine Learning will be helpful.
@@ -97,9 +97,9 @@ In order to perform the necessary actions in Synapse workspace, you will need to
 
 2. [Register and scan adls gen2](https://docs.microsoft.com/en-us/azure/purview/register-scan-adls-gen2#register-azure-data-lake-storage-gen2-data-source) 
 
-####select only the `creditriskdata` folder while creating the scan.
+select only the `creditriskdata` folder while creating the scan.
 
-![ADLSGen2 Scanning folder selection](./Deployment/img/ADLSGen2Scanning.png)
+![ADLSGen2 Scanning folder selection](./Deployment/img/ADLSGen2Scanning.PNG)
 
 Wait for scan run status to change to `Completed` before running next step.
 
@@ -144,7 +144,7 @@ Wait for scan run status to change to `Completed` before running next step.
 	- `01_Create_CreditRisk_AML_Pipeline.ipynb` ( Pipeline run might take few minutes so please wait for completion before running the next notebook) 
 	- `02_Create_CreditRisk_AML_Pipeline_Lineage.ipynb`	
 	
-![ML Pipeline](./Deployment/img/AMLPipeline.png)	
+![ML Pipeline](./Deployment/img/AMLPipeline.PNG)	
 
 ### Step 10. Check Machine Learning pipeline Lineage in Purview Studio (Optional)
 1. Launch [Purview Studio](https://ms.web.purview.azure.com/)
@@ -152,11 +152,11 @@ Wait for scan run status to change to `Completed` before running next step.
 3. Click on `Custom ML Experiment Step` and select any step we created from running notebooks in `Step 9`
 4. Click on `Lineage` to see Machine Learning pipeline Lineage
 
-![ML Pipeline Lineage](./Deployment/img/AMLPipelineLineage.png)
+![ML Pipeline Lineage](./Deployment/img/AMLPipelineLineage.PNG)
 	
 ## Architecture
 The architecture diagram below details what you will be building for this Solution Accelerator.
-![Architecture](./Deployment/img/Architecture.png)
+![Architecture](./Deployment/img/Architecture.PNG)
 
 
 ## License
