@@ -1,6 +1,16 @@
+---
+page_type: sample
+languages:
+- python
+- bash
+products:
+- azure-purview
+- azure-synapse-analytics
+- azure-machine-learning
+---
 ![Purview Machine Learning Lineage Solution Accelerator](./Deployment/img/PurviewMLLineageSolutionAccelerator.PNG)
 
-## About this Repository 
+# Purview Machine Learning Lineage Solution Accelerator 
 
 Azure Purview is a unified data governance service that helps you manage and govern data across different sources.
 
