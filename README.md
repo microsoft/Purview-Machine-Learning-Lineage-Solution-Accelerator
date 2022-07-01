@@ -4,7 +4,7 @@ languages:
 - python
 - bash
 products:
-- azure-purview
+- microsoft-purview
 - azure-synapse-analytics
 - azure-machine-learning
 ---
