@@ -12,9 +12,9 @@ products:
 
 # Purview Machine Learning Lineage Solution Accelerator 
 
-Azure Purview is a unified data governance service that helps you manage and govern data across different sources.
+Microsoft Purview is a unified data governance service that helps you manage and govern data across different sources.
 
-Machine Learning project life cycle involves many steps to transform raw data into insights. This process usually requires individuals with different roles/skillsets across multiple teams to collaborate effectively. Azure Purview helps simplify this complex process by providing an end-to-end lineage of ML entities and processes to enable better collaboration, auditing and debugging capabilities.
+Machine Learning project life cycle involves many steps to transform raw data into insights. This process usually requires individuals with different roles/skillsets across multiple teams to collaborate effectively. Microsoft Purview helps simplify this complex process by providing an end-to-end lineage of ML entities and processes to enable better collaboration, auditing and debugging capabilities.
 
 This solution accelerator helps developers with the resources needed to build an end-to-end lineage in Purview for Machine Learning scenarios.
 
@@ -25,19 +25,19 @@ This solution accelerator helps developers with the resources needed to build an
 ![ML Lineage](./Deployment/img/MLLineageScreenshot.PNG)
 
 ## Prerequisites
-To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/). While not required, a prior understanding of Azure Purview, Azure Synapse Analytics and Machine Learning will be helpful.
+To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/). While not required, a prior understanding of Microsoft Purview, Azure Synapse Analytics and Machine Learning will be helpful.
 
 For additional training and support, please see:
-1. [Azure Purview](https://azure.microsoft.com/en-us/services/purview/) 
+1. [Microsoft Purview](https://azure.microsoft.com/en-us/services/purview/) 
 2. [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) 
 3. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) 
 
 ## Getting Started
-Start by deploying the required resources to Azure. The button below will deploy Azure Purview, Azure Synapse Analytics, Azure Machine Learning and its related resources:
+Start by deploying the required resources to Azure. The button below will deploy Microsoft Purview, Azure Synapse Analytics, Azure Machine Learning and its related resources:
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FPurview-Machine-Learning-Lineage-Solution-Accelerator%2Fmain%2FDeployment%2Fdeploy.json)
 
-If you prefer to setup manually, you need to deploy Azure Purview, Azure Synapse Analytics, Azure Machine Learning.
+If you prefer to setup manually, you need to deploy Microsoft Purview, Azure Synapse Analytics, Azure Machine Learning.
 
 Note: To minimize Azure costs, consider deleting the Purview instance at the end of this exercise if you do not plan to use this instance actively. 
 
