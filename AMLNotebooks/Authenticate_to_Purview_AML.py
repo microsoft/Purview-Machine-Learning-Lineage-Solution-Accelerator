@@ -1,3 +1,7 @@
+# Copyright (c) Microsoft. All rights reserved.
+
+# Licensed under the MIT license.
+
 def authentitae_to_purview_AML():
     from pyapacheatlas.auth import ServicePrincipalAuthentication
     from pyapacheatlas.core import PurviewClient, AtlasClassification, AtlasEntity, AtlasProcess  

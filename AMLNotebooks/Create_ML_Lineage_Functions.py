@@ -1,4 +1,8 @@
 # +
+# Copyright (c) Microsoft. All rights reserved.
+
+# Licensed under the MIT license.
+
 from pyapacheatlas.auth import ServicePrincipalAuthentication
 from pyapacheatlas.core import PurviewClient, AtlasClassification, AtlasEntity, AtlasProcess  
 from pyapacheatlas.readers import ExcelConfiguration, ExcelReader
