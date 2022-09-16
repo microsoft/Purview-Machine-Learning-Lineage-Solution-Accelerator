@@ -1,3 +1,7 @@
+# Copyright (c) Microsoft. All rights reserved.
+
+# Licensed under the MIT license.
+
 def create_ml_lineage_types(client):
     from pyapacheatlas.core.typedef import AtlasAttributeDef, EntityTypeDef, RelationshipTypeDef
     try:
