@@ -75,7 +75,7 @@ You've now configured the service principal as a contributor on Azure Machine Le
 
 #### Step 4.1 Add your IP address to Synapse firewall
 Before you can upload assests to the Synapse Workspace you will need to add your IP address:
-1. Go to the Synapse resouce you created in the previous step
+1. Go to the Synapse resource you created in the previous step
 2. Navigate to `Firewalls` under `Security` on the left hand side of the page
 3. At the top of the screen click `+ Add client IP`
 	![Update Firewalls](./Deployment/img/deploy-firewall.png)  
